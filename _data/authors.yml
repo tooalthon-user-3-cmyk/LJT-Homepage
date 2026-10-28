@@ -1,18 +1,17 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Junteng Liu:
+  name        : "Junteng Liu"
+  uri         : "https://tooalthon-user-3-cmyk.github.io/LJT-Homepage"
+  email       : "jliugi@connect.ust.hk"
+  bio         : "PhD candidate at HKUST NLP Group researching natural language processing and machine learning."
+  avatar      : "profile.png"
+  twitter     : "junteng88716710"
+  google_plus : "Junteng Liu"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Professor Junxian He:
+  name        : "Junxian He"
+  uri         : "https://www.ece.ust.hk/~junhe/"
+  email       : ""
+  bio         : "Professor at HKUST NLP Group, Junteng Liu's PhD supervisor."
+  avatar      : "profile.png"
