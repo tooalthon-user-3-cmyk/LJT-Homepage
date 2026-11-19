@@ -54,7 +54,6 @@ author:
   telegram:
   tumblr:
   twitter: junteng88716710
-  wine: 
   wikipedia:
   xing:
   youtube:
@@ -104,7 +103,6 @@ exclude:
   - Gemfile.lock
   - gulpfile.js
   - Gruntfile.js
-  - gulpfile.js
   - Rakefile
   - tmp
   - log
@@ -189,56 +187,6 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-keep_files:
-  - .git
-  - .svn
-  - CHANGELOG
-  - README
-  - tmp
-  - vendor
-  - Rakefile
-  - config
-  - dialog
-  - dialog.rb
-  - Dockerfile
-  - docker-compose.yaml
-  - package.json
-  - package-lock.json
-  - dockerfile
-  - compose.yaml
-  - CHANGELOG
-  - gemfile
-  - gemfile.lock
-  - Rakefile
-  - dialog
-  - docker-compose.yaml
-  - Gemfile
-  - gemfile.lock
-  - dialog
-  - docker-compose.yaml
-  - Gemfile
-  - gemfile.lock
-  - dialog
-  - docker-compose.yaml
-  - Gemfile
-  - gemfile.lock
-  - dialog
-  - docker-compose.yaml
-  - Gemfile
-  - gemfile.lock
-  - dialog
-  - docker-compose.yaml
-  - Gemfile
-  - gemfile.lock
-  - dialog
-  - docker-compose.yaml
-  - Gemfile
-  - gemfile.lock
-  - dialog
-  - docker-compose.yaml
-  - Gemfile
-  - gemfile.lock
-
 kramdown:
   input: GFM
   hard_wrap: false
@@ -247,14 +195,13 @@ kramdown:
   toc_top: true
   toc_types: ["h1", "h2", "h3", "h4", "h5", "h6"]
   smart_quotes: true
-  disable_rules: ["weekday"]
   syntax_highlighter: rouge
-  syntax_highlight_theme: "default"
+  syntax_highlight_theme: default
   document_baseurl: ""
   code_block_captions: true
   embeds: true
   footer: true
-  toc_difficult_blocks: "mathjax"
+  toc_difficult_blocks: mathjax
   sequence_converter: [
     { pattern: "$1 $2", replacement: "<ol>\\2</ol>" },
     { pattern: "$1 $2", replacement: "<ul>\\2</ul>" },
